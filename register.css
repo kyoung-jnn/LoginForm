@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia,"Times New Roman",serif;
+}
+
+body{
+    background: #355C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+    background-color: white;
+    width: 360px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding:80px 40px;
+    border-radius: 30px;
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
