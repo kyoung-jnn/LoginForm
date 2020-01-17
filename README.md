@@ -1,5 +1,7 @@
-# Login_JavaScript_Nodejs
- JavaScript, Nodejs를 이용한 로그인 구현
+# 로그인, 회원가입 시스템 구현하기
 
-현재 로그인, 회원가입화면 구성 
+HTML, CSS를 이용하여 화면단 구성
+
+JavaScript, Nodejs를 이용하여 서버에 회원 정보 저장 
+
 
