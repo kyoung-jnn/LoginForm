@@ -1,0 +1,26 @@
+{
+  "name": "login_javascript_nodejs",
+  "version": "1.0.0",
+  "description": "HTML, CSS를 이용하여 화면단 구성",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyoung-jnn/Login_JavaScript_Nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyoung-jnn/Login_JavaScript_Nodejs/issues"
+  },
+  "homepage": "https://github.com/kyoung-jnn/Login_JavaScript_Nodejs#readme"
+}
