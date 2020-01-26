@@ -9,23 +9,23 @@
 </head>
 <body>
     <div class="container">
-        <form method="post">
+        <form action="/login_process" method="post">
             <h1>Login</h1>
 
             <div class="inputs">
               <div class="userName">
                 <label>Username</label>
-                <input type="text">
+                <input type="text" name="userId" value="kyoung-jnn">
               </div>
               <div class="password">
                 <label>Password</label>
-                <input type="password">
+                <input type="password" name="pwd1" value="1111">
               </div>
               <button type="submit" id="loginBtn">Login</button>
             </div>
             
             <div class="signUp">
-                Don't have account? <a href="register.html">Sign up</a>
+                Don't have account? <a href="/register">Sign up</a>
             </div>
         </form>
     </div>

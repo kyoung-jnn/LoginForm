@@ -1,6 +1,14 @@
 const express = require('express');
-const app = express();
 var router = require('./router/main');
+var session = require('express-session');
+
+const app = express();
+
+app.use(session({
+    secret: 'thisistoyproject',
+    resave: false,
+    saveUninitialized: true,
+}))
 
 //html 경로 설정
 app.set('views',__dirname + '/views');
@@ -10,6 +18,7 @@ app.engine('html',require('ejs').renderFile);
 
 app.use('/',router);
 app.use(express.static('public'));//css 사용을 위해 추가
+
 
 app.listen(3000,function(){
     console.log("Success");

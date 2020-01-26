@@ -9,29 +9,28 @@
 </head>
 <body>
     <div class="container">
-        <form action="register_process" method="post">
+        <form action="/register_process" method="post">
             <h1>Register</h1>
 
             <div class="inputs">
               <div class="userName">
                 <label>Username</label>
-                <input type="text">
+                <input type="text" name="userId" value="kyoung-jnn">
               </div>
               <div class="userEmail">
                 <label>E-mail</label>
-                <input type="text">
+                <input type="text" name="userEmail" value="rudwls468@gmail.com">
               </div>
               <div class="password">
                 <label>Password</label>
-                <input type="password">
+                <input type="password" name="pwd1" value="1111">
               </div>
               <div class="password">
                 <label>Confirm Password</label>
-                <input type="password">
+                <input type="password" name="pwd2" value="1111">
               </div>
               <button type="submit" id="loginBtn"></button>
             </div>
-            
         </form>
     </div>
 </body>
