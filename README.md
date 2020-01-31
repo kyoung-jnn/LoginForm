@@ -2,6 +2,9 @@
 
 HTML, CSS를 이용하여 화면단 구성
 
-JavaScript, Nodejs를 이용하여 서버에 회원 정보 저장 
+Nodejs, Express를 이용하여 서버 생성, 회원정보 저장
+서버는 server.js
+
+
 
 
