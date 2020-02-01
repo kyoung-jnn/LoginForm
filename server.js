@@ -14,7 +14,7 @@ app.use(session({
     store:new FileStore()
 }))
 app.use(express.static('public'));//css 사용을 위해 추가
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: false })); //body-parser 사용
 app.use('/',router);
 
 //html 경로 설정
@@ -23,9 +23,6 @@ app.set('views',__dirname + '/views');
 app.set('view engine','ejs');
 app.engine('html',require('ejs').renderFile);
 
-
-
-
 app.listen(3000,function(){
-    console.log("Success");
+    console.log("Server Success");
 });

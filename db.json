@@ -1,3 +1,9 @@
 {
-  "users": []
+  "users": [
+    {
+      "name": "kyoung-jnn",
+      "email": "rudwls468@gmail.com",
+      "password": "1111"
+    }
+  ]
 }
