@@ -1,3 +1,10 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": "L2rwWm6k",
+      "name": "kyoung-jnn",
+      "email": "rudwls468@gmail.com",
+      "password": "$2b$10$lQ17IjbdKtyMJDqzGSqk/OzBbfc35KlQX7QQa4mGIDxg2ZDj9JX8a"
+    }
+  ]
 }

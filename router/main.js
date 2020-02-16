@@ -7,8 +7,8 @@ const shortid = require('shortid');
 const low = require('lowdb'); //lowdb 사용
 const bcrypt = require('bcrypt'); //bcrypt 사용하여 비밀번호 암호화
 const FileSync = require('lowdb/adapters/FileSync'); //동기 방식으로 저장
-const adapter = new FileSync('db.json') //db.json 파일로 저장
-const db = low(adapter)
+const adapter = new FileSync('db.json'); //db.json 파일로 저장
+const db = low(adapter);
 db.defaults({users:[]}).write();
 
 router.get('/login',function(req,res){
