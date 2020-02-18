@@ -30,7 +30,7 @@ router.post('/login_process', function(req, res){
                 req.session.is_logined = true;
                 req.session.save(function(){
                     console.log("login Success!");
-                    res.redirect('/loginSuccess');
+                    res.redirect(307,'/loginSuccess');
                 });
             } else{ //비밀번호 틀렸을때
                 console.log("logout Fail! / Wrong Password");
@@ -45,8 +45,11 @@ router.post('/login_process', function(req, res){
     
 });
 
-router.get('/loginSuccess',function(req,res){
-    res.render('loginSuccess.html');
+router.post('/loginSuccess',function(req,res){
+    var post = req.body;
+    var userName = post.name;
+    console.log(post);
+    res.render('loginSuccess.html',{successUserName: userName});
 })
 
 router.post('/logout_process',function(req,res){

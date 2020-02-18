@@ -25,34 +25,24 @@ body{
     text-align: center;
     margin-top: 0px;
     margin-bottom: 50px;
-    font-size: 70px;
+    font-size: 60px;
 }
 
+#welcomeText{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#successText{
+    margin-top: 0px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 40px;
+}
 .inputs{
     position: relative;
     margin: 50px 0px;
-}
-
-.inputs label{
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.inputs input{
-    height: 40px;
-    width: 100%;
-    padding: 10px 10px;
-    font-size: 20px;
-    display: block;
-    border-style: solid;
-    border-image: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
-    border-image-slice: 1;
-    border-top: none;
-    border-left: none;
-}
-
-.userName{
-    margin-bottom: 10px;
 }
 
 .inputs #logoutBtn{
@@ -74,8 +64,4 @@ body{
     background-position: right;
 }
 
-.signUp{
-    text-align: center;
-    font-size: 19px;
-}
 
