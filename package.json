@@ -4,7 +4,7 @@
   "description": "HTML, CSS를 이용하여 화면단 구성",
   "main": "server.js",
   "dependencies": {
-    "bcrypt": "^3.0.8",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
